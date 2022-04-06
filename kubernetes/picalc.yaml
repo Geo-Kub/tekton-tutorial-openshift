@@ -20,8 +20,8 @@ spec:
         - name: http-server
           containerPort: 8080
       imagePullSecrets:
-      - name: ibm-cr-pull-secret
-      serviceAccountName: pipeline-account-1
+      - name: poc-quay-pull-secret
+      serviceAccountName: pipeline-account
 ---
 apiVersion: v1
 kind: Service
